@@ -6220,3 +6220,53 @@ body {
       font-size: 2.5rem;
       color: #fff;
 }
+
+/* Share and Download Overlays */
+.card-actions {
+      position: absolute;
+      bottom: 15px;
+      left: 50%;
+      transform: translateX(-50%) translateY(10px);
+      display: flex;
+      gap: 10px;
+      opacity: 0;
+      transition: opacity 0.3s ease, transform 0.3s ease;
+      z-index: 100;
+      pointer-events: none;
+      /* Let hover pass through to the card mostly */
+}
+
+.profile-card:hover .card-actions {
+      opacity: 1;
+      transform: translateX(-50%) translateY(0);
+      pointer-events: auto;
+      /* Enable clicks when visible */
+}
+
+.action-btn {
+      background: rgba(0, 0, 0, 0.65);
+      color: #fff;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      padding: 8px 14px;
+      border-radius: 20px;
+      font-size: 0.75rem;
+      font-family: 'Inter', sans-serif;
+      font-weight: 500;
+      cursor: pointer;
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      transition: background 0.2s, transform 0.2s;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.action-btn:hover {
+      background: rgba(0, 0, 0, 0.85);
+      transform: translateY(-2px);
+}
+
+.action-btn svg {
+      opacity: 0.9;
+}

@@ -1,0 +1,1705 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Insta Story Studio</title>
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="themes.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;600;700&family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Poppins:wght@300;400;600;700;800&family=Great+Vibes&family=Righteous&display=swap"
+            rel="stylesheet">
+      <!-- html2canvas -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+</head>
+
+<body>
+      <div class="page-container">
+            <!-- Header Section -->
+            <header class="hero-header">
+                  <div class="logo">mixcards</div>
+                  <h1 class="glow-text">Design Your<br>Digital Identity</h1>
+                  <p class="subtitle">Craft beautiful, personalized profiles in seconds.
+                        Choose from hundreds of premium layouts designed for modern creators.</p>
+
+                  <div class="pill-nav" id="category-filter">
+                        <button class="pill active" data-filter="all">All</button>
+                        <button class="pill" data-filter="premium">Premium Editorial (1-50)</button>
+                        <button class="pill" data-filter="floral">Purple Floral (51-100)</button>
+                        <button class="pill" data-filter="bday">Classic BDay</button>
+                        <button class="pill" data-filter="misc">Misc Creator</button>
+                  </div>
+            </header>
+
+            <!-- Masonry Showcase Grid -->
+            <main class="masonry-grid">
+                  <!-- Cards will be populated here -->
+                  <!-- BIRTHDAY CARDS -->
+
+                  <!-- BDay 1: Neon Night -->
+                  <div class="profile-card card-bday-neon filter-bday">
+                        <div class="card-inner">
+                              <div class="neon-bg"></div>
+                              <div class="content">
+                                    <h2 class="neon-text">HAPPY<br>BIRTHDAY</h2>
+                                    <div class="photo-circle">
+                                          <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80"
+                                                alt="Birthday Person">
+                                    </div>
+                                    <p class="neon-sub">Let's party all night!</p>
+                              </div>
+                        </div>
+                  </div>
+
+                  <!-- BDay 2: Soft Pastel -->
+                  <div class="profile-card card-bday-pastel filter-bday">
+                        <div class="card-inner">
+                              <div class="pastel-blobs"></div>
+                              <div class="overlap-content">
+                                    <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80"
+                                          class="main-img" alt="Birthday Person">
+                                    <h3 class="cursive-text">Happy Birthday</h3>
+                                    <p class="name-text">Jessica</p>
+                              </div>
+                        </div>
+                  </div>
+
+                  <!-- BDay 3: Gold Luxury -->
+                  <div class="profile-card card-bday-gold filter-bday">
+                        <div class="card-inner">
+                              <div class="gold-border">
+                                    <h4 class="gold-heading">CELEBRATING</h4>
+                                    <h2 class="gold-name">ALEXANDER</h2>
+                                    <div class="gold-divider"></div>
+                                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80"
+                                          alt="Birthday Person">
+                                    <p class="gold-date">EST. 1995</p>
+                              </div>
+                        </div>
+                  </div>
+
+                  <!-- BDay 4: Polaroid Snapshot -->
+                  <div class="profile-card card-bday-polaroid filter-bday">
+                        <div class="card-inner">
+                              <div class="polaroid-frame">
+                                    <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80"
+                                          alt="Birthday Person">
+                                    <div class="tape"></div>
+                                    <div class="caption">
+                                          <span class="marker-font">HBD Emma! 🎈</span>
+                                    </div>
+                              </div>
+                        </div>
+                  </div>
+
+                  <!-- BDay 5: Minimal Floral -->
+                  <div class="profile-card card-bday-floral filter-bday">
+                        <div class="card-inner">
+                              <div class="arch-frame">
+                                    <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80"
+                                          alt="Birthday Person">
+                              </div>
+                              <h2 class="serif-title">Wishing you joy</h2>
+                              <p class="sub-text">Have a beautiful day.</p>
+                        </div>
+                  </div>
+
+                  <!-- BDay 6: Premium Editorial -->
+                  <div class="profile-card card-bday-editorial filter-bday">
+                        <div class="card-inner">
+                              <!-- Background & Texture -->
+                              <div class="editorial-bg">
+                                    <div class="bg-noise"></div>
+                              </div>
+
+                              <!-- Large Background Typography -->
+                              <div class="bg-typo">BIRTHDAY</div>
+
+                              <!-- Double Exposure Image Layer -->
+                              <div class="photo-wrapper">
+                                    <img class="model-shadow"
+                                          src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
+                                          alt="Model Blur">
+                                    <img class="model-main"
+                                          src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
+                                          alt="Model Original">
+                              </div>
+
+                              <!-- Script Overlay -->
+                              <div class="script-overlay">Happy</div>
+
+                              <!-- Decorative elements -->
+                              <div class="decor-arrows">
+                                    <span class="arrow">↗</span>
+                                    <span class="arrow">↘</span>
+                              </div>
+
+                              <!-- Date Section -->
+                              <div class="date-block">
+                                    <div class="d-month">April 2025</div>
+                                    <div class="d-sub">Sixteen / Two</div>
+                                    <div class="d-num">22</div>
+                              </div>
+
+                              <!-- Quote Section -->
+                              <div class="quote-block">
+                                    <span class="red-dot"></span>
+                                    <p>To another year of living softly and dreaming loudly.</p>
+                              </div>
+                        </div>
+                  </div>
+
+                  <!-- BATCH 1: TYPOGRAPHY FOCUS -->
+
+                  <!-- 1. Oversized Background Text -->
+                  <div class="profile-card card-bday-edit-1 filter-premium">
+                        <div class="card-inner">
+                              <div class="massive-bg-text">B I R T H D A Y</div>
+                              <img class="main-portrait"
+                                    src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=600&q=80"
+                                    alt="Model">
+                              <div class="bottom-quote">
+                                    <span class="red-dot"></span>
+                                    <p>A soft celebration of life and modern elegance.</p>
+                              </div>
+                              <div class="date-stamp">10.24.25</div>
+                        </div>
+                  </div>
+
+                  <!-- 2. Left-Align Minimalist -->
+                  <div class="profile-card card-bday-edit-2">
+                        <div class="card-inner">
+                              <img class="small-portrait"
+                                    src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=600&q=80"
+                                    alt="Model">
+                              <div class="left-align-text">
+                                    <h2>HBD</h2>
+                                    <p>Another year of graceful evolution.</p>
+                                    <div class="red-line"></div>
+                                    <span>APRIL 2025</span>
+                              </div>
+                        </div>
+                  </div>
+
+                  <!-- 3. Split Horizontal -->
+                  <div class="profile-card card-bday-edit-3">
+                        <div class="card-inner">
+                              <div class="top-half">
+                                    <img src="https://images.unsplash.com/photo-1481824429379-07aa5e5b0739?w=600&q=80"
+                                          alt="Model">
+                              </div>
+                              <div class="bottom-half">
+                                    <h2>TWENTY<br>TWO</h2>
+                                    <div class="script-tag">Years</div>
+                              </div>
+                        </div>
+                  </div>
+
+                  <!-- 4. Vertical Side-Strip -->
+                  <div class="profile-card card-bday-edit-4">
+                        <div class="card-inner">
+                              <div class="side-strip">
+                                    <span>HAPPY BIRTHDAY 2025</span>
+                              </div>
+                              <div class="main-content">
+                                    <img src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=600&q=80"
+                                          alt="Model">
+                                    <div class="corner-date">22</div>
+                              </div>
+                        </div>
+                  </div>
+
+                  <!-- 5. Cropped Face Close-Up -->
+                  <div class="profile-card card-bday-edit-5">
+                        <div class="card-inner">
+                              <img class="macro-shot"
+                                    src="https://images.unsplash.com/photo-1509967419530-da38b4704bc6?w=600&q=80"
+                                    alt="Model">
+                              <div class="typo-overlay">
+                                    <h2>CELEBRATE</h2>
+                              </div>
+                              <div class="floating-text">
+                                    <p>Beauty in the details.</p>
+                              </div>
+                        </div>
+                  </div>
+
+                  <!-- 6. Diagonal Movement -->
+                  <div class="profile-card card-bday-edit-6">
+                        <div class="card-inner">
+                              <div class="diag-bg"></div>
+                              <img src="https://images.unsplash.com/photo-1542596594-649edbc13630?w=600&q=80"
+                                    alt="Model">
+                              <h2 class="diag-text">WISHING YOU</h2>
+                              <div class="red-box">
+                                    <span>JOY</span>
+                              </div>
+                        </div>
+                  </div>
+
+                  <!-- 7. Centered Magazine Cover -->
+                  <div class="profile-card card-bday-edit-7">
+                        <div class="card-inner">
+                              <h1 class="mag-title">VOGUE</h1>
+                              <img class="mag-model"
+                                    src="https://images.unsplash.com/photo-1512413915181-edb14187e1f4?w=600&q=80"
+                                    alt="Model">
+                              <div class="mag-footer">
+                                    <span class="issue">BIRTHDAY ISSUE</span>
+                                    <span class="price">VOL. 22</span>
+                              </div>
+                        </div>
+                  </div>
+
+                  <!-- 8. Asymmetrical Grid -->
+                  <div class="profile-card card-bday-edit-8">
+                        <div class="card-inner">
+                              <div class="grid-layout">
+                                    <div class="grid-img">
+                                          <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&q=80"
+                                                alt="Model">
+                                    </div>
+                                    <div class="grid-empty">
+                                          <span class="red-arrow">↓</span>
+                                    </div>
+                                    <div class="grid-text-large">24</div>
+                                    <div class="grid-text-small">Celebrating the beauty of another year.</div>
+                              </div>
+                        </div>
+                  </div>
+
+                  <!-- 9. Full-Bleed Portrait -->
+                  <div class="profile-card card-bday-edit-9">
+                        <div class="card-inner">
+                              <img class="full-bg"
+                                    src="https://images.unsplash.com/photo-1484515991647-c5760fce0c78?w=600&q=80"
+                                    alt="Model">
+                              <div class="diff-text">
+                                    <h2>HAPPY</h2>
+                                    <h2>BIRTHDAY</h2>
+                              </div>
+                              <div class="diff-date">EST. 2002</div>
+                        </div>
+                  </div>
+
+                  <!-- 10. Circular Mask Layout -->
+                  <div class="profile-card card-bday-edit-10">
+                        <div class="card-inner">
+                              <svg class="arch-text" viewBox="0 0 100 100">
+                                    <path id="curve" d="M 10 50 A 40 40 0 1 1 90 50" fill="transparent" />
+                                    <text width="100">
+                                          <textPath href="#curve">A VERY SPECIAL RED EDITION</textPath>
+                                    </text>
+                              </svg>
+                              <div class="circle-mask">
+                                    <img src="https://images.unsplash.com/photo-1554727242-741c14fa4615?w=600&q=80"
+                                          alt="Model">
+                              </div>
+                              <div class="bottom-serif">
+                                    <h2 class="red-serif">B-Day</h2>
+                              </div>
+                        </div>
+                  </div>
+
+                  <!-- BATCH 2: COLLAGE & LAYERING (11-20) -->
+
+                  <!-- 11. Torn Paper Collage -->
+                  <div class="profile-card card-bday-edit-11">
+                        <div class="card-inner">
+                              <div class="torn-top"></div>
+                              <div class="collage-layer">
+                                    <img src="https://images.unsplash.com/photo-1542451313056-b7c8e626645f?w=600&q=80"
+                                          alt="Model">
+                                    <div class="tape-strip"></div>
+                              </div>
+                              <h2 class="torn-text">ARTISTIC</h2>
+                              <p class="torn-sub">A life well composed.</p>
+                              <div class="torn-bottom"></div>
+                        </div>
+                  </div>
+
+                  <!-- 12. Shadow Silhouette -->
+                  <div class="profile-card card-bday-edit-12">
+                        <div class="card-inner">
+                              <div class="sil-bg"></div>
+                              <img src="https://images.unsplash.com/photo-1502444330042-dcebbeaf86a4?w=600&q=80"
+                                    alt="Model">
+                              <h2 class="sil-text">MYSTIQUE</h2>
+                              <div class="sil-date">10 . 22</div>
+                        </div>
+                  </div>
+
+                  <!-- 13. Soft Gradient Fade -->
+                  <div class="profile-card card-bday-edit-13">
+                        <div class="card-inner">
+                              <img src="https://images.unsplash.com/photo-1445053082836-574fc903e722?w=600&q=80"
+                                    alt="Model">
+                              <div class="fade-overlay"></div>
+                              <div class="fade-content">
+                                    <span class="fade-tag">CHAPTER</span>
+                                    <h2>TWENTY</h2>
+                              </div>
+                        </div>
+                  </div>
+
+                  <!-- 14. Mirrored Double-Exposure -->
+                  <div class="profile-card card-bday-edit-14">
+                        <div class="card-inner">
+                              <img class="base-img"
+                                    src="https://images.unsplash.com/photo-1492106087820-71f1a00d2b11?w=600&q=80"
+                                    alt="Model">
+                              <img class="mirrored-img"
+                                    src="https://images.unsplash.com/photo-1492106087820-71f1a00d2b11?w=600&q=80"
+                                    alt="Model">
+                              <div class="center-type">
+                                    <h2>REFLECT</h2>
+                              </div>
+                        </div>
+                  </div>
+
+                  <!-- 15. Monochrome Layout -->
+                  <div class="profile-card card-bday-edit-15">
+                        <div class="card-inner">
+                              <div class="mono-line"></div>
+                              <img src="https://images.unsplash.com/photo-1510425464923-3ddb5dbbca23?w=600&q=80"
+                                    alt="Model">
+                              <div class="mono-text">
+                                    <h2 class="mono-gray">TWENTY</h2>
+                                    <h2 class="mono-red">TWO</h2>
+                              </div>
+                        </div>
+                  </div>
+
+                  <!-- 16. Serif & Script Collision -->
+                  <div class="profile-card card-bday-edit-16">
+                        <div class="card-inner">
+                              <div class="large-letter">A</div>
+                              <div class="script-across">ugust</div>
+                              <img src="https://images.unsplash.com/photo-1525946399182-1a22129b01dd?w=600&q=80"
+                                    alt="Model">
+                              <p>Elevating personal style in 2025.</p>
+                        </div>
+                  </div>
+
+                  <!-- 17. Sans-Serif Brutalism -->
+                  <div class="profile-card card-bday-edit-17">
+                        <div class="card-inner">
+                              <div class="brut-header">
+                                    <span>2025</span>
+                                    <span>BIRTHDAY</span>
+                              </div>
+                              <img src="https://images.unsplash.com/photo-1485230405346-71acb9518d9c?w=600&q=80"
+                                    alt="Model">
+                              <div class="brut-footer">
+                                    <h2>BOLD</h2>
+                              </div>
+                        </div>
+                  </div>
+
+                  <!-- 18. Thin Line Typographic -->
+                  <div class="profile-card card-bday-edit-18">
+                        <div class="card-inner">
+                              <div class="line-border top"></div>
+                              <div class="line-border bottom"></div>
+                              <div class="line-border left"></div>
+                              <div class="line-border right"></div>
+
+                              <img src="https://images.unsplash.com/photo-1520630656346-6415dfc37f37?w=600&q=80"
+                                    alt="Model">
+                              <div class="micro-text left-micro">VOL 22</div>
+                              <div class="micro-text right-micro">EDITORIAL</div>
+                              <h2 class="center-serif">Classic</h2>
+                        </div>
+                  </div>
+
+                  <!-- 19. Experimental Mixed -->
+                  <div class="profile-card card-bday-edit-19">
+                        <div class="card-inner">
+                              <div class="split-word">
+                                    <span>BIR</span>
+                                    <span>THD</span>
+                                    <span>AY</span>
+                              </div>
+                              <img src="https://images.unsplash.com/photo-1520443240718-fce21901db78?w=600&q=80"
+                                    alt="Model">
+                              <div class="corner-dot"></div>
+                        </div>
+                  </div>
+
+                  <!-- 20. Off-Grid Overlap -->
+                  <div class="profile-card card-bday-edit-20">
+                        <div class="card-inner">
+                              <div class="beige-box"></div>
+                              <img src="https://images.unsplash.com/photo-1481214110143-ed630356e1bc?w=600&q=80"
+                                    alt="Model" class="off-grid-img">
+                              <h2 class="overlap-title">MOMENT</h2>
+                              <p class="overlap-quote">A portrait in time.</p>
+                        </div>
+                  </div>
+
+                  <!-- BATCH 3: MIXED LAYOUTS (21-30) -->
+
+                  <!-- 21. Polarized Frame -->
+                  <div class="profile-card card-bday-edit-21">
+                        <div class="card-inner">
+                              <h2 class="wrap-typo">CELE<br>BRATE</h2>
+                              <div class="offset-frame">
+                                    <img src="https://images.unsplash.com/photo-1550614000-4b95d4ed7add?w=600&q=80"
+                                          alt="Model">
+                              </div>
+                              <p class="polar-sub">An editorial reflection.</p>
+                        </div>
+                  </div>
+
+                  <!-- 22. Grid Collage -->
+                  <div class="profile-card card-bday-edit-22">
+                        <div class="card-inner">
+                              <div class="four-grid">
+                                    <div class="grid-cell"><img
+                                                src="https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=600&q=80"
+                                                alt="Model"></div>
+                                    <div class="grid-cell typo-cell">
+                                          <h2>22</h2>
+                                          <span>YEARS</span>
+                                    </div>
+                                    <div class="grid-cell"><img
+                                                src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=600&q=80"
+                                                alt="Model"></div>
+                                    <div class="grid-cell"><img
+                                                src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=600&q=80"
+                                                alt="Model"></div>
+                              </div>
+                        </div>
+                  </div>
+
+                  <!-- 23. Stamped Border -->
+                  <div class="profile-card card-bday-edit-23">
+                        <div class="card-inner">
+                              <div class="stamp-border"></div>
+                              <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?w=600&q=80"
+                                    alt="Model" class="stamp-img">
+                              <h2 class="stamp-text">ICONIC</h2>
+                        </div>
+                  </div>
+
+                  <!-- 24. Overlay Strip -->
+                  <div class="profile-card card-bday-edit-24">
+                        <div class="card-inner">
+                              <img src="https://images.unsplash.com/photo-1542451313056-b7c8e626645f?w=600&q=80"
+                                    alt="Model">
+                              <div class="central-strip">
+                                    <h2>BIRTHDAY</h2>
+                                    <p>CELEBRATING IN STYLE.</p>
+                              </div>
+                        </div>
+                  </div>
+
+                  <!-- 25. Floating Typographic Arch -->
+                  <div class="profile-card card-bday-edit-25">
+                        <div class="card-inner">
+                              <h2 class="float-title">FEELING</h2>
+                              <img src="https://images.unsplash.com/photo-1502444330042-dcebbeaf86a4?w=600&q=80"
+                                    alt="Model" class="cutout-img">
+                              <h2 class="float-title title-bottom">GOOD.</h2>
+                        </div>
+                  </div>
+
+                  <!-- 26. Corner Focus -->
+                  <div class="profile-card card-bday-edit-26">
+                        <div class="card-inner">
+                              <div class="corner-top-left">
+                                    <h2>EST.</h2>
+                                    <h2>1995</h2>
+                              </div>
+                              <img src="https://images.unsplash.com/photo-1445053082836-574fc903e722?w=600&q=80"
+                                    alt="Model" class="center-tiny-img">
+                              <div class="corner-bottom-right">
+                                    <p>Always growing,</p>
+                                    <p>always flowing.</p>
+                              </div>
+                        </div>
+                  </div>
+
+                  <!-- 27. Layered Frames -->
+                  <div class="profile-card card-bday-edit-27">
+                        <div class="card-inner">
+                              <div class="frame-one">
+                                    <img src="https://images.unsplash.com/photo-1492106087820-71f1a00d2b11?w=600&q=80"
+                                          alt="Model">
+                              </div>
+                              <div class="frame-two">
+                                    <img src="https://images.unsplash.com/photo-1492106087820-71f1a00d2b11?w=600&q=80"
+                                          alt="Model">
+                              </div>
+                              <h2 class="overlap-h2">TWENTY</h2>
+                        </div>
+                  </div>
+
+                  <!-- 28. Minimal Text Block -->
+                  <div class="profile-card card-bday-edit-28">
+                        <div class="card-inner">
+                              <div class="tiny-text-box">
+                                    <h2>24</h2>
+                                    <p>A completely new era begins right here.</p>
+                                    <span class="red-dot"></span>
+                              </div>
+                        </div>
+                  </div>
+
+                  <!-- 29. Typewriter Poem -->
+                  <div class="profile-card card-bday-edit-29">
+                        <div class="card-inner">
+                              <img src="https://images.unsplash.com/photo-1510425464923-3ddb5dbbca23?w=600&q=80"
+                                    alt="Model" class="poem-img">
+                              <div class="poem-block">
+                                    <p>Chapter 22.</p>
+                                    <p>Embracing the silence,</p>
+                                    <p>finding the beauty</p>
+                                    <p>in the space between.</p>
+                              </div>
+                        </div>
+                  </div>
+
+                  <!-- 30. Vertical Split -->
+                  <div class="profile-card card-bday-edit-30">
+                        <div class="card-inner">
+                              <div class="split-left">
+                                    <img src="https://images.unsplash.com/photo-1525946399182-1a22129b01dd?w=600&q=80"
+                                          alt="Model">
+                              </div>
+                              <div class="split-right">
+                                    <h2 class="v-split-text">CELEBRATE</h2>
+                                    <span class="v-split-date">APR. 2025</span>
+                              </div>
+                        </div>
+                  </div>
+
+                  <!-- BATCH 4: GRANULAR SPECIFIC LAYOUTS (31-40) -->
+
+                  <!-- 31. Typographic Staircase -->
+                  <div class="profile-card card-bday-edit-31">
+                        <div class="card-inner">
+                              <h2 class="stair-1">CELEBRATING</h2>
+                              <h2 class="stair-2">THE</h2>
+                              <h2 class="stair-3">ART</h2>
+                              <h2 class="stair-4">OF YOU</h2>
+                              <img src="https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?w=600&q=80"
+                                    alt="Model">
+                        </div>
+                  </div>
+
+                  <!-- 32. Half & Half Horizontal -->
+                  <div class="profile-card card-bday-edit-32">
+                        <div class="card-inner">
+                              <div class="top-img"><img
+                                          src="https://images.unsplash.com/photo-1502323777036-f29e3972d82f?w=600&q=80"
+                                          alt="Model"></div>
+                              <div class="bottom-typo">
+                                    <span class="small-tag">ISSUE 25</span>
+                                    <h2>MODERN<br>BEAUTY</h2>
+                              </div>
+                        </div>
+                  </div>
+
+                  <!-- 33. Corner Pin -->
+                  <div class="profile-card card-bday-edit-33">
+                        <div class="card-inner">
+                              <img src="https://images.unsplash.com/photo-1496440737103-cd596325d314?w=600&q=80"
+                                    alt="Model" class="pin-img">
+                              <h2 class="pin-text">TWENTY<br>EIGHT</h2>
+                        </div>
+                  </div>
+
+                  <!-- 34. Center Block Column -->
+                  <div class="profile-card card-bday-edit-34">
+                        <div class="card-inner">
+                              <img src="https://images.unsplash.com/photo-1488426862026-3ee34a7d66fc?w=600&q=80"
+                                    alt="Model">
+                              <div class="center-col">
+                                    <span>B</span>
+                                    <span>D</span>
+                                    <span>A</span>
+                                    <span>Y</span>
+                              </div>
+                        </div>
+                  </div>
+
+                  <!-- 35. The Document -->
+                  <div class="profile-card card-bday-edit-35">
+                        <div class="card-inner">
+                              <div class="doc-header">
+                                    <h2>REGISTRY</h2>
+                                    <span>NO. 2205</span>
+                              </div>
+                              <div class="doc-body">
+                                    <div class="doc-line"><span class="label">NAME:</span> <span
+                                                class="val">ESTEEMED</span></div>
+                                    <div class="doc-line"><span class="label">DATE:</span> <span class="val">24TH
+                                                OCT</span></div>
+                              </div>
+                              <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=600&q=80"
+                                    alt="Model" class="doc-img">
+                              <div class="doc-stamp">APPROVED</div>
+                        </div>
+                  </div>
+
+                  <!-- 36. Floating Quote Large -->
+                  <div class="profile-card card-bday-edit-36">
+                        <div class="card-inner">
+                              <img src="https://images.unsplash.com/photo-1517365830460-955ce3ccd263?w=600&q=80"
+                                    alt="Model">
+                              <div class="quote-overlay-box">
+                                    <h2 class="q-mark">"</h2>
+                                    <h2>LIVING ARTFULLY AND ALWAYS EVOLVING.</h2>
+                              </div>
+                        </div>
+                  </div>
+
+                  <!-- 37. Asymmetrical Margin -->
+                  <div class="profile-card card-bday-edit-37">
+                        <div class="card-inner">
+                              <div class="thick-margin">
+                                    <span>PORTRAIT COLLECTION</span>
+                              </div>
+                              <img src="https://images.unsplash.com/photo-1546456073-92b9f0a8d413?w=600&q=80"
+                                    alt="Model">
+                        </div>
+                  </div>
+
+                  <!-- 38. Overlapping Circles -->
+                  <div class="profile-card card-bday-edit-38">
+                        <div class="card-inner">
+                              <div class="circle-c1"><img
+                                          src="https://images.unsplash.com/photo-1491349174775-aaaf10fbc3a1?w=600&q=80"
+                                          alt="Model"></div>
+                              <div class="circle-c2">
+                                    <h2>21</h2>
+                              </div>
+                        </div>
+                  </div>
+
+                  <!-- 39. Full Bleed Dark Red -->
+                  <div class="profile-card card-bday-edit-39">
+                        <div class="card-inner">
+                              <h2 class="red-bg-title">BIR<br>TH<br>DAY</h2>
+                              <img src="https://images.unsplash.com/photo-1529139574466-a303027c1ea1?w=600&q=80"
+                                    alt="Model">
+                        </div>
+                  </div>
+
+                  <!-- 40. Number Dominant -->
+                  <div class="profile-card card-bday-edit-40">
+                        <div class="card-inner">
+                              <img src="https://images.unsplash.com/photo-1502823403499-6ccfcf4fb453?w=600&q=80"
+                                    alt="Model" class="numbg">
+                              <h1 class="huge-number">25</h1>
+                              <div class="over-text-box">
+                                    <p>CELEBRATING LIFE</p>
+                              </div>
+                        </div>
+                  </div>
+
+                  <!-- BATCH 5: ABSTRACT & TEXTURAL (41-50) -->
+
+                  <!-- 41. Full Grain Overlay -->
+                  <div class="profile-card card-bday-edit-41">
+                        <div class="card-inner">
+                              <div class="grain-overlay"></div>
+                              <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=600&q=80"
+                                    alt="Model">
+                              <div class="grain-typo">
+                                    <h2>MEMORIES</h2>
+                                    <span>2025</span>
+                              </div>
+                        </div>
+                  </div>
+
+                  <!-- 42. Multiple Stamp -->
+                  <div class="profile-card card-bday-edit-42">
+                        <div class="card-inner">
+                              <div class="stamp-col">
+                                    <span class="stmp">ISSUED</span>
+                                    <span class="stmp">08.24.25</span>
+                                    <span class="stmp">CONFIRMED</span>
+                              </div>
+                              <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&q=80"
+                                    alt="Model">
+                        </div>
+                  </div>
+
+                  <!-- 43. Offset Shadow Typography -->
+                  <div class="profile-card card-bday-edit-43">
+                        <div class="card-inner">
+                              <img src="https://images.unsplash.com/photo-1521119989659-a83eee488004?w=600&q=80"
+                                    alt="Model">
+                              <h2 class="offset-shadow-txt">ELEVATE</h2>
+                        </div>
+                  </div>
+
+                  <!-- 44. Split Tone Grid -->
+                  <div class="profile-card card-bday-edit-44">
+                        <div class="card-inner">
+                              <div class="split-top">
+                                    <h2>CELEBRATION</h2>
+                              </div>
+                              <div class="split-mid">
+                                    <img src="https://images.unsplash.com/photo-1488161628813-04466f872be2?w=600&q=80"
+                                          alt="Model">
+                              </div>
+                              <div class="split-bot">
+                                    <p>TWENTY FIVE</p>
+                              </div>
+                        </div>
+                  </div>
+
+                  <!-- 45. Text Path Box -->
+                  <div class="profile-card card-bday-edit-45">
+                        <div class="card-inner">
+                              <div class="box-path-wrap">
+                                    <div class="box-path-text t-top">HAPPY BIRTHDAY</div>
+                                    <div class="box-path-text t-right">HAPPY BIRTHDAY</div>
+                                    <div class="box-path-text t-bottom">HAPPY BIRTHDAY</div>
+                                    <div class="box-path-text t-left">HAPPY BIRTHDAY</div>
+                              </div>
+                              <img src="https://images.unsplash.com/photo-1531123414708-8e7ba45fa879?w=600&q=80"
+                                    alt="Model" class="box-center-img">
+                        </div>
+                  </div>
+
+                  <!-- 46. Typographic Texture -->
+                  <div class="profile-card card-bday-edit-46">
+                        <div class="card-inner">
+                              <h1 class="bg-texture-char">E</h1>
+                              <img src="https://images.unsplash.com/photo-1498551172505-8ee7ad69f235?w=600&q=80"
+                                    alt="Model">
+                              <div class="btm-label">EXCEPTIONAL</div>
+                        </div>
+                  </div>
+
+                  <!-- 47. Blurred Subject -->
+                  <div class="profile-card card-bday-edit-47">
+                        <div class="card-inner">
+                              <img src="https://images.unsplash.com/photo-1481214110143-ed630356e1bc?w=600&q=80"
+                                    alt="Model" class="blur-img">
+                              <div class="sharp-box">
+                                    <h2>FOCUSED</h2>
+                                    <p>ON THE FUTURE</p>
+                              </div>
+                        </div>
+                  </div>
+
+                  <!-- 48. Two-Tone Diagonal -->
+                  <div class="profile-card card-bday-edit-48">
+                        <div class="card-inner">
+                              <div class="diag-split-box">
+                                    <div class="diag-half-red"></div>
+                              </div>
+                              <img src="https://images.unsplash.com/photo-1529139574466-a303027c1ea1?w=600&q=80"
+                                    alt="Model">
+                              <h2 class="tone-text">BOLD</h2>
+                        </div>
+                  </div>
+
+                  <!-- 49. Magazine Spine Layout -->
+                  <div class="profile-card card-bday-edit-49">
+                        <div class="card-inner">
+                              <div class="spine">
+                                    <span>VOGUE HOMMES · ISSUE NO. 25</span>
+                              </div>
+                              <div class="cover-content">
+                                    <h2 class="cover-masthead">STYLE</h2>
+                                    <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=600&q=80"
+                                          alt="Model">
+                              </div>
+                        </div>
+                  </div>
+
+                  <!-- 50. Floating Geometric -->
+                  <div class="profile-card card-bday-edit-50">
+                        <div class="card-inner">
+                              <div class="geo-square">
+                                    <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?w=600&q=80"
+                                          alt="Model">
+                              </div>
+                              <div class="geo-circle">
+                                    <h2>24</h2>
+                                    <span>AND THRIVING</span>
+                              </div>
+                        </div>
+                  </div>
+
+                  <!-- BATCH 6 (PURPLE FLORAL BATCH 1): CORE PORTRAIT & FLORAL FRAMING (51-60) -->
+
+                  <!-- 51. Large Center Portrait -->
+                  <div class="profile-card card-purple-edit-51">
+                        <div class="card-inner">
+                              <img src="https://images.unsplash.com/photo-1506501905869-7b3b320db9e3?w=600&q=80"
+                                    alt="Purple Flower" class="bg-flower">
+                              <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=600&q=80"
+                                    alt="Model" class="main-portrait">
+                              <div class="typo-box">
+                                    <h2>CELEBRATE</h2>
+                                    <span>2025</span>
+                              </div>
+                        </div>
+                  </div>
+
+                  <!-- 52. Diagonal Flow -->
+                  <div class="profile-card card-purple-edit-52">
+                        <div class="card-inner">
+                              <img src="https://images.unsplash.com/photo-1534066060010-3fd272ba7e10?w=600&q=80"
+                                    alt="Lavender" class="diag-floral-1">
+                              <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=600&q=80"
+                                    alt="Model" class="diag-portrait">
+                              <img src="https://images.unsplash.com/photo-1534066060010-3fd272ba7e10?w=600&q=80"
+                                    alt="Lavender" class="diag-floral-2">
+                              <h2 class="diag-text">TWENTY TWO</h2>
+                        </div>
+                  </div>
+
+                  <!-- 53. Floral Arch -->
+                  <div class="profile-card card-purple-edit-53">
+                        <div class="card-inner">
+                              <div class="arch-container">
+                                    <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?w=600&q=80"
+                                          alt="Model" class="arch-portrait">
+                              </div>
+                              <img src="https://images.unsplash.com/photo-1628105574384-56ad92110c14?w=600&q=80"
+                                    alt="Orchid" class="arch-floral-overlay">
+                              <div class="arch-typo">
+                                    <p>A YEAR OF BLOOMING</p>
+                              </div>
+                        </div>
+                  </div>
+
+                  <!-- 54. Bottom-Heavy Floral -->
+                  <div class="profile-card card-purple-edit-54">
+                        <div class="card-inner">
+                              <div class="top-empty">
+                                    <h2>HAPPY<br>BIRTHDAY</h2>
+                              </div>
+                              <img src="https://images.unsplash.com/photo-1524250502761-1ac6f2e30d43?w=600&q=80"
+                                    alt="Model" class="sit-portrait">
+                              <img src="https://images.unsplash.com/photo-1490750967868-88cb4ec06540?w=600&q=80"
+                                    alt="Purple Petals" class="bottom-floral-bed">
+                        </div>
+                  </div>
+
+                  <!-- 55. Top-Heavy Floral -->
+                  <div class="profile-card card-purple-edit-55">
+                        <div class="card-inner">
+                              <img src="https://images.unsplash.com/photo-1506501905869-7b3b320db9e3?w=600&q=80"
+                                    alt="Hanging Lavender" class="top-floral-hang">
+                              <img src="https://images.unsplash.com/photo-1515347619145-4200dbe15ce4?w=600&q=80"
+                                    alt="Model" class="center-tiny-portrait">
+                              <div class="bottom-typo-clean">
+                                    <span>25TH EDITION</span>
+                              </div>
+                        </div>
+                  </div>
+
+                  <!-- 56. Edge Framing -->
+                  <div class="profile-card card-purple-edit-56">
+                        <div class="card-inner">
+                              <img src="https://images.unsplash.com/photo-1546456073-92b9f0a8d413?w=600&q=80"
+                                    alt="Model" class="center-full-portrait">
+                              <img src="https://images.unsplash.com/photo-1534066060010-3fd272ba7e10?w=600&q=80"
+                                    alt="Floral Edge" class="edge-f-top">
+                              <img src="https://images.unsplash.com/photo-1534066060010-3fd272ba7e10?w=600&q=80"
+                                    alt="Floral Edge" class="edge-f-bottom">
+                              <h2 class="center-glow-text">DREAM</h2>
+                        </div>
+                  </div>
+
+                  <!-- 57. Side Heavy Portrait -->
+                  <div class="profile-card card-purple-edit-57">
+                        <div class="card-inner">
+                              <img src="https://images.unsplash.com/photo-1531123414708-8e7ba45fa879?w=600&q=80"
+                                    alt="Model" class="left-heavy-portrait">
+                              <div class="right-heavy-typo">
+                                    <h2>M</h2>
+                                    <h2>A</h2>
+                                    <h2>Y</h2>
+                                    <p>2025</p>
+                              </div>
+                              <img src="https://images.unsplash.com/photo-1628105574384-56ad92110c14?w=600&q=80"
+                                    alt="Thin Stem" class="right-stem">
+                        </div>
+                  </div>
+
+                  <!-- 58. Full-Frame Subject -->
+                  <div class="profile-card card-purple-edit-58">
+                        <div class="card-inner">
+                              <img src="https://images.unsplash.com/photo-1502823403499-6ccfcf4fb453?w=600&q=80"
+                                    alt="Model" class="full-frame-img">
+                              <div class="blur-overlay-bot"></div>
+                              <img src="https://images.unsplash.com/photo-1506501905869-7b3b320db9e3?w=600&q=80"
+                                    alt="Blurred Flower" class="fg-blurred-flower">
+                              <h2 class="soft-float-text">VIOLET</h2>
+                        </div>
+                  </div>
+
+                  <!-- 59. Circular Central Mask -->
+                  <div class="profile-card card-purple-edit-59">
+                        <div class="card-inner">
+                              <div class="circle-mask-wrap">
+                                    <img src="https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?w=600&q=80"
+                                          alt="Model">
+                              </div>
+                              <img src="https://images.unsplash.com/photo-1490750967868-88cb4ec06540?w=600&q=80"
+                                    alt="Breaking Petals" class="break-circle-floral">
+                              <div class="top-arch-text">
+                                    <svg viewBox="0 0 200 200">
+                                          <path id="curve" d="M 20, 100 A 80,80 0 0,1 180,100" fill="transparent" />
+                                          <text>
+                                                <textPath href="#curve" startOffset="50%" text-anchor="middle"
+                                                      fill="#6B4C9A" font-family="'Inter', sans-serif" font-weight="800"
+                                                      font-size="20">CELEBRATION</textPath>
+                                          </text>
+                                    </svg>
+                              </div>
+                        </div>
+                  </div>
+
+                  <!-- 60. Layered Scrapbook -->
+                  <div class="profile-card card-purple-edit-60">
+                        <div class="card-inner">
+                              <div class="tape-strip top-tape"></div>
+                              <div class="tape-strip bot-tape"></div>
+                              <img src="https://images.unsplash.com/photo-1481214110143-ed630356e1bc?w=600&q=80"
+                                    alt="Model" class="scrap-portrait">
+                              <img src="https://images.unsplash.com/photo-1628105574384-56ad92110c14?w=600&q=80"
+                                    alt="Scrap Flower" class="scrap-flower">
+                              <div class="scrap-note">
+                                    <p>To Another Beautiful Year</p>
+                              </div>
+                        </div>
+                  </div>
+
+                  <!-- BATCH 7 (PURPLE FLORAL BATCH 2): COLLAGE & MULTI-IMAGE FOCUS (61-70) -->
+
+                  <!-- 61. 3-Photo Stack -->
+                  <div class="profile-card card-purple-edit-61">
+                        <div class="card-inner">
+                              <div class="vert-slice slice-1"><img
+                                          src="https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?w=600&q=80"
+                                          alt="Model"></div>
+                              <div class="vert-slice slice-2"><img
+                                          src="https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?w=600&q=80"
+                                          alt="Model"></div>
+                              <div class="vert-slice slice-3"><img
+                                          src="https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?w=600&q=80"
+                                          alt="Model"></div>
+                              <img src="https://images.unsplash.com/photo-1490750967868-88cb4ec06540?w=600&q=80"
+                                    alt="Overlay Flower" class="slice-flower-overlay">
+                              <h2 class="slice-title">LAVENDER</h2>
+                        </div>
+                  </div>
+
+                  <!-- 62. Vertical Photo Strip -->
+                  <div class="profile-card card-purple-edit-62">
+                        <div class="card-inner">
+                              <div class="photobooth-strip">
+                                    <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=600&q=80"
+                                          alt="Model 1">
+                                    <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?w=600&q=80"
+                                          alt="Model 2">
+                                    <img src="https://images.unsplash.com/photo-1531123414708-8e7ba45fa879?w=600&q=80"
+                                          alt="Model 3">
+                                    <div class="pb-text">08/25</div>
+                              </div>
+                              <img src="https://images.unsplash.com/photo-1534066060010-3fd272ba7e10?w=600&q=80"
+                                    alt="Lavender Background" class="pb-bg-blur">
+                        </div>
+                  </div>
+
+                  <!-- 63. Asymmetrical Focus -->
+                  <div class="profile-card card-purple-edit-63">
+                        <div class="card-inner">
+                              <img src="https://images.unsplash.com/photo-1502823403499-6ccfcf4fb453?w=600&q=80"
+                                    alt="Main Model" class="asym-main">
+                              <div class="tiny-box tb-1"><img
+                                          src="https://images.unsplash.com/photo-1506501905869-7b3b320db9e3?w=600&q=80"
+                                          alt="Flower"></div>
+                              <div class="tiny-box tb-2"><img
+                                          src="https://images.unsplash.com/photo-1502323777036-f29e3972d82f?w=600&q=80"
+                                          alt="Detail"></div>
+                              <p class="asym-side-text">DETAILS</p>
+                        </div>
+                  </div>
+
+                  <!-- 64. Overlapping Tilted Frames -->
+                  <div class="profile-card card-purple-edit-64">
+                        <div class="card-inner">
+                              <div class="tilt-frame frame-left">
+                                    <img src="https://images.unsplash.com/photo-1515347619145-4200dbe15ce4?w=600&q=80"
+                                          alt="Model">
+                              </div>
+                              <div class="tilt-frame frame-right">
+                                    <img src="https://images.unsplash.com/photo-1481214110143-ed630356e1bc?w=600&q=80"
+                                          alt="Model">
+                              </div>
+                              <img src="https://images.unsplash.com/photo-1628105574384-56ad92110c14?w=600&q=80"
+                                    alt="Orchid" class="tilt-orchid">
+                        </div>
+                  </div>
+
+                  <!-- 65. Corner Collage Arrangement -->
+                  <div class="profile-card card-purple-edit-65">
+                        <div class="card-inner">
+                              <div class="corner-cluster">
+                                    <img src="https://images.unsplash.com/photo-1534066060010-3fd272ba7e10?w=600&q=80"
+                                          alt="Lavender" class="cc-floral">
+                                    <img src="https://images.unsplash.com/photo-1496440737103-cd596325d314?w=600&q=80"
+                                          alt="Model" class="cc-portrait">
+                                    <div class="cc-color-block"></div>
+                              </div>
+                              <div class="bot-left-script">
+                                    <p>Serenity & Grace</p>
+                              </div>
+                        </div>
+                  </div>
+
+                  <!-- 66. Center Framed Box -->
+                  <div class="profile-card card-purple-edit-66">
+                        <div class="card-inner">
+                              <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=600&q=80"
+                                    alt="Model Background" class="framed-bg-blur">
+                              <div class="center-strict-box">
+                                    <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=600&q=80"
+                                          alt="Model Sharp">
+                                    <div class="csb-label">XXV</div>
+                              </div>
+                        </div>
+                  </div>
+
+                  <!-- 67. Soft Mirrored Duplicate -->
+                  <div class="profile-card card-purple-edit-67">
+                        <div class="card-inner">
+                              <img src="https://images.unsplash.com/photo-1546456073-92b9f0a8d413?w=600&q=80"
+                                    alt="Model Blur" class="mirror-base-blur">
+                              <img src="https://images.unsplash.com/photo-1546456073-92b9f0a8d413?w=600&q=80"
+                                    alt="Model Sharp" class="mirror-top-sharp">
+                              <div class="mirror-accents">
+                                    <span>REFLECTIONS</span>
+                              </div>
+                        </div>
+                  </div>
+
+                  <!-- 68. Minimal White-Space Dominant -->
+                  <div class="profile-card card-purple-edit-68">
+                        <div class="card-inner">
+                              <img src="https://images.unsplash.com/photo-1502323777036-f29e3972d82f?w=600&q=80"
+                                    alt="Model" class="tiny-center-img">
+                              <img src="https://images.unsplash.com/photo-1534066060010-3fd272ba7e10?w=600&q=80"
+                                    alt="Lavender" class="solitary-lavender">
+                              <p class="minimal-year">EST. 2025</p>
+                        </div>
+                  </div>
+
+                  <!-- 69. Faded Double Exposure -->
+                  <div class="profile-card card-purple-edit-69">
+                        <div class="card-inner">
+                              <img src="https://images.unsplash.com/photo-1506501905869-7b3b320db9e3?w=600&q=80"
+                                    alt="Flower Base" class="fade-base-flower">
+                              <div class="fade-gradient-overlay"></div>
+                              <img src="https://images.unsplash.com/photo-1529139574466-a303027c1ea1?w=600&q=80"
+                                    alt="Model Fade" class="fade-top-model">
+                              <h2 class="fade-title">BLOOM</h2>
+                        </div>
+                  </div>
+
+                  <!-- 70. Cropped Close-Up -->
+                  <div class="profile-card card-purple-edit-70">
+                        <div class="card-inner">
+                              <img src="https://images.unsplash.com/photo-1517365830460-955ce3ccd263?w=600&q=80"
+                                    alt="Model Crop" class="macro-crop-img">
+                              <img src="https://images.unsplash.com/photo-1490750967868-88cb4ec06540?w=600&q=80"
+                                    alt="Petals" class="macro-petals">
+                              <div class="macro-text-box">
+                                    <p>PORTRAIT</p>
+                              </div>
+                        </div>
+                  </div>
+
+                  <!-- BATCH 8 (PURPLE FLORAL BATCH 3): SOFT BLENDS & DEPTH (71-80) -->
+
+                  <!-- 71. Bottom Blur Fade -->
+                  <div class="profile-card card-purple-edit-71">
+                        <div class="card-inner">
+                              <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=600&q=80"
+                                    alt="Model" class="top-sharp-model">
+                              <div class="soft-bot-blur-box">
+                                    <img src="https://images.unsplash.com/photo-1534066060010-3fd272ba7e10?w=600&q=80"
+                                          alt="Lavender" class="blur-lavender">
+                                    <div class="blur-text-overlay">
+                                          <h2>ETHEREAL</h2>
+                                          <p>MOMENTS</p>
+                                    </div>
+                              </div>
+                        </div>
+                  </div>
+
+                  <!-- 72. Circle & Square Intersection -->
+                  <div class="profile-card card-purple-edit-72">
+                        <div class="card-inner">
+                              <div class="intersect-square">
+                                    <img src="https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?w=600&q=80"
+                                          alt="Model Square">
+                              </div>
+                              <div class="intersect-circle">
+                                    <img src="https://images.unsplash.com/photo-1490750967868-88cb4ec06540?w=600&q=80"
+                                          alt="Violets Circle">
+                              </div>
+                              <h2 class="intersect-typo">BEAUTY</h2>
+                        </div>
+                  </div>
+
+                  <!-- 73. Typography Behind Subject -->
+                  <div class="profile-card card-purple-edit-73">
+                        <div class="card-inner">
+                              <h1 class="huge-bg-text">ROMANCE</h1>
+                              <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?w=600&q=80"
+                                    alt="Model" class="pop-out-model">
+                              <img src="https://images.unsplash.com/photo-1534066060010-3fd272ba7e10?w=600&q=80"
+                                    alt="Lavender Wrap" class="wrap-floral-fg">
+                        </div>
+                  </div>
+
+                  <!-- 74. Monochromatic Plum Blur -->
+                  <div class="profile-card card-purple-edit-74">
+                        <div class="card-inner">
+                              <div class="plum-wash"></div>
+                              <img src="https://images.unsplash.com/photo-1531123414708-8e7ba45fa879?w=600&q=80"
+                                    alt="Model" class="plum-model">
+                              <div class="plum-typo">
+                                    <p>TWENTY FIVE</p>
+                              </div>
+                        </div>
+                  </div>
+
+                  <!-- 75. Double Frame Shift -->
+                  <div class="profile-card card-purple-edit-75">
+                        <div class="card-inner">
+                              <div class="shift-frame sf-1"></div>
+                              <div class="shift-frame sf-2">
+                                    <img src="https://images.unsplash.com/photo-1502823403499-6ccfcf4fb453?w=600&q=80"
+                                          alt="Model">
+                              </div>
+                              <img src="https://images.unsplash.com/photo-1506501905869-7b3b320db9e3?w=600&q=80"
+                                    alt="Flower Accent" class="sf-flower">
+                        </div>
+                  </div>
+
+                  <!-- 76. Top Margin Heavy -->
+                  <div class="profile-card card-purple-edit-76">
+                        <div class="card-inner">
+                              <div class="massive-top-margin">
+                                    <p>VOGUE FLORALS · ISSUE 25</p>
+                              </div>
+                              <img src="https://images.unsplash.com/photo-1515347619145-4200dbe15ce4?w=600&q=80"
+                                    alt="Model" class="bottom-snap-img">
+                              <h2 class="overlap-top-text">STYLE</h2>
+                        </div>
+                  </div>
+
+                  <!-- 77. Center Focus Soft Fade -->
+                  <div class="profile-card card-purple-edit-77">
+                        <div class="card-inner">
+                              <div class="radial-fade-wrap">
+                                    <img src="https://images.unsplash.com/photo-1481214110143-ed630356e1bc?w=600&q=80"
+                                          alt="Model" class="rf-img">
+                              </div>
+                              <img src="https://images.unsplash.com/photo-1628105574384-56ad92110c14?w=600&q=80"
+                                    alt="Orchids" class="rf-orchids">
+                        </div>
+                  </div>
+
+                  <!-- 78. Split Diagonal Collage -->
+                  <div class="profile-card card-purple-edit-78">
+                        <div class="card-inner">
+                              <div class="diag-split-top">
+                                    <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=600&q=80"
+                                          alt="Model">
+                              </div>
+                              <div class="diag-split-bot">
+                                    <img src="https://images.unsplash.com/photo-1490750967868-88cb4ec06540?w=600&q=80"
+                                          alt="Flowers">
+                                    <h2>DREAMER</h2>
+                              </div>
+                        </div>
+                  </div>
+
+                  <!-- 79. Delicate Line Art Box -->
+                  <div class="profile-card card-purple-edit-79">
+                        <div class="card-inner">
+                              <div class="thin-border-box">
+                                    <img src="https://images.unsplash.com/photo-1546456073-92b9f0a8d413?w=600&q=80"
+                                          alt="Model" class="tbb-img">
+                                    <h2 class="tbb-text">BLOOMING</h2>
+                              </div>
+                              <img src="https://images.unsplash.com/photo-1534066060010-3fd272ba7e10?w=600&q=80"
+                                    alt="Lavender Focus" class="tbb-lavender">
+                        </div>
+                  </div>
+
+                  <!-- 80. Asymmetrical Floating Typo -->
+                  <div class="profile-card card-purple-edit-80">
+                        <div class="card-inner">
+                              <img src="https://images.unsplash.com/photo-1502323777036-f29e3972d82f?w=600&q=80"
+                                    alt="Model" class="float-model">
+                              <div class="float-text-stagger">
+                                    <span class="fs-1">LIVING</span>
+                                    <span class="fs-2">ART</span>
+                                    <span class="fs-3">FULLY</span>
+                              </div>
+                        </div>
+                  </div>
+
+                  <!-- BATCH 9 (PURPLE FLORAL BATCH 4): GEOMETRIC & MICRO-DETAILS (81-90) -->
+
+                  <!-- 81. Grid of Four -->
+                  <div class="profile-card card-purple-edit-81">
+                        <div class="card-inner">
+                              <div class="four-grid">
+                                    <div class="fg-item fg-1"><img
+                                                src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=600&q=80"
+                                                alt="Model"></div>
+                                    <div class="fg-item fg-2"><img
+                                                src="https://images.unsplash.com/photo-1534066060010-3fd272ba7e10?w=600&q=80"
+                                                alt="Lavender Box"></div>
+                                    <div class="fg-item fg-3"><img
+                                                src="https://images.unsplash.com/photo-1506501905869-7b3b320db9e3?w=600&q=80"
+                                                alt="Purple Flower"></div>
+                                    <div class="fg-item fg-4">
+                                          <h2>2</h2>
+                                    </div>
+                              </div>
+                              <div class="bottom-cap">
+                                    <p>CHAPTER 25</p>
+                              </div>
+                        </div>
+                  </div>
+
+                  <!-- 82. Circular Window Top -->
+                  <div class="profile-card card-purple-edit-82">
+                        <div class="card-inner">
+                              <div class="circle-window">
+                                    <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=600&q=80"
+                                          alt="Model in Circle">
+                              </div>
+                              <img src="https://images.unsplash.com/photo-1490750967868-88cb4ec06540?w=600&q=80"
+                                    alt="Falling Petals" class="cw-petals">
+                              <div class="cw-text">
+                                    <h2>MAY</h2>
+                                    <p>TWENTY FIFTH</p>
+                              </div>
+                        </div>
+                  </div>
+
+                  <!-- 83. Film Strip Vertical Edge -->
+                  <div class="profile-card card-purple-edit-83">
+                        <div class="card-inner">
+                              <img src="https://images.unsplash.com/photo-1502823403499-6ccfcf4fb453?w=600&q=80"
+                                    alt="Model Background" class="film-bg">
+                              <div class="film-edge">
+                                    <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?w=600&q=80"
+                                          alt="Frame 1">
+                                    <img src="https://images.unsplash.com/photo-1531123414708-8e7ba45fa879?w=600&q=80"
+                                          alt="Frame 2">
+                                    <img src="https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?w=600&q=80"
+                                          alt="Frame 3">
+                              </div>
+                              <h2 class="film-label">MEMORIES</h2>
+                        </div>
+                  </div>
+
+                  <!-- 84. Polariod Stack Center -->
+                  <div class="profile-card card-purple-edit-84">
+                        <div class="card-inner">
+                              <img src="https://images.unsplash.com/photo-1534066060010-3fd272ba7e10?w=600&q=80"
+                                    alt="Lavender Base" class="polaroid-bg">
+                              <div class="polaroid p-back">
+                                    <img src="https://images.unsplash.com/photo-1481214110143-ed630356e1bc?w=600&q=80"
+                                          alt="Model Back">
+                              </div>
+                              <div class="polaroid p-front">
+                                    <img src="https://images.unsplash.com/photo-1546456073-92b9f0a8d413?w=600&q=80"
+                                          alt="Model Front">
+                                    <div class="p-caption">Always Growing</div>
+                              </div>
+                        </div>
+                  </div>
+
+                  <!-- 85. Minimal Diamond Cutout -->
+                  <div class="profile-card card-purple-edit-85">
+                        <div class="card-inner">
+                              <div class="diamond-cut">
+                                    <img src="https://images.unsplash.com/photo-1515347619145-4200dbe15ce4?w=600&q=80"
+                                          alt="Model Diamond">
+                              </div>
+                              <img src="https://images.unsplash.com/photo-1628105574384-56ad92110c14?w=600&q=80"
+                                    alt="Orchid Silhouette" class="diamond-orchid">
+                        </div>
+                  </div>
+
+                  <!-- 86. Half-Page Solid Color Block -->
+                  <div class="profile-card card-purple-edit-86">
+                        <div class="card-inner">
+                              <div class="half-img-top">
+                                    <img src="https://images.unsplash.com/photo-1502323777036-f29e3972d82f?w=600&q=80"
+                                          alt="Model Top Half">
+                              </div>
+                              <div class="half-solid-bot">
+                                    <h2>CELEBRATE</h2>
+                                    <img src="https://images.unsplash.com/photo-1490750967868-88cb4ec06540?w=600&q=80"
+                                          alt="Tiny Flowers" class="half-tiny-floral">
+                              </div>
+                        </div>
+                  </div>
+
+                  <!-- 87. Floating Stamps -->
+                  <div class="profile-card card-purple-edit-87">
+                        <div class="card-inner">
+                              <img src="https://images.unsplash.com/photo-1529139574466-a303027c1ea1?w=600&q=80"
+                                    alt="Model" class="stamp-bg-img">
+                              <div class="stamp st-1">
+                                    <img src="https://images.unsplash.com/photo-1506501905869-7b3b320db9e3?w=600&q=80"
+                                          alt="Flower Stamp">
+                              </div>
+                              <div class="stamp st-2">
+                                    <p>25</p>
+                              </div>
+                              <h2 class="stamp-bg-text">BLOOM</h2>
+                        </div>
+                  </div>
+
+                  <!-- 88. Micro Typography Margin Notes -->
+                  <div class="profile-card card-purple-edit-88">
+                        <div class="card-inner">
+                              <img src="https://images.unsplash.com/photo-1517365830460-955ce3ccd263?w=600&q=80"
+                                    alt="Model" class="margin-note-img">
+                              <div class="margin-note-right">
+                                    <p>FIG. 1 — LAVENDULA ANGUSTIFOLIA</p>
+                              </div>
+                              <div class="margin-note-bot">
+                                    <span>BIRTHDAY ARCHIVE</span>
+                                    <span>NO. 25</span>
+                              </div>
+                        </div>
+                  </div>
+
+                  <!-- 89. Vertical Typography Bar -->
+                  <div class="profile-card card-purple-edit-89">
+                        <div class="card-inner">
+                              <div class="vert-bar">
+                                    <h2>TWENTY FIVE</h2>
+                              </div>
+                              <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=600&q=80"
+                                    alt="Model Frame Right" class="vbar-model">
+                              <img src="https://images.unsplash.com/photo-1534066060010-3fd272ba7e10?w=600&q=80"
+                                    alt="Lavender Frame" class="vbar-floral">
+                        </div>
+                  </div>
+
+                  <!-- 90. Typographic Outline Overlay -->
+                  <div class="profile-card card-purple-edit-90">
+                        <div class="card-inner">
+                              <img src="https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?w=600&q=80"
+                                    alt="Model Background Full" class="outline-bg-model">
+                              <img src="https://images.unsplash.com/photo-1490750967868-88cb4ec06540?w=600&q=80"
+                                    alt="Flowers" class="outline-bot-flowers">
+                              <h1 class="outline-huge-text">LAVENDER</h1>
+                        </div>
+                  </div>
+
+                  <!-- BATCH 10 (PURPLE FLORAL BATCH 5): ASYMMETRICAL & MIXED EXPERIMENTAL (91-100) -->
+
+                  <!-- 91. Offset Arch and Square -->
+                  <div class="profile-card card-purple-edit-91">
+                        <div class="card-inner">
+                              <div class="off-arch"><img
+                                          src="https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?w=600&q=80"
+                                          alt="Model"></div>
+                              <div class="off-square"><img
+                                          src="https://images.unsplash.com/photo-1534066060010-3fd272ba7e10?w=600&q=80"
+                                          alt="Lavender"></div>
+                              <h2 class="off-text">25TH</h2>
+                        </div>
+                  </div>
+
+                  <!-- 92. Floating Polaroid Trio -->
+                  <div class="profile-card card-purple-edit-92">
+                        <div class="card-inner">
+                              <div class="tri-pol tp-1"><img
+                                          src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=600&q=80"
+                                          alt="Model"></div>
+                              <div class="tri-pol tp-2"><img
+                                          src="https://images.unsplash.com/photo-1506501905869-7b3b320db9e3?w=600&q=80"
+                                          alt="Flower"></div>
+                              <div class="tri-pol tp-3"><img
+                                          src="https://images.unsplash.com/photo-1517841905240-472988babdf9?w=600&q=80"
+                                          alt="Model"></div>
+                              <h2 class="tri-text">CHRONICLES</h2>
+                        </div>
+                  </div>
+
+                  <!-- 93. Dual Tone Split -->
+                  <div class="profile-card card-purple-edit-93">
+                        <div class="card-inner">
+                              <div class="dt-left">
+                                    <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=600&q=80"
+                                          alt="Model">
+                              </div>
+                              <div class="dt-right">
+                                    <p>SERENE</p>
+                              </div>
+                        </div>
+                  </div>
+
+                  <!-- 94. Concentric Floral Rings -->
+                  <div class="profile-card card-purple-edit-94">
+                        <div class="card-inner">
+                              <div class="ring-out"><img
+                                          src="https://images.unsplash.com/photo-1490750967868-88cb4ec06540?w=600&q=80"
+                                          alt="Lavender"></div>
+                              <div class="ring-in"><img
+                                          src="https://images.unsplash.com/photo-1531123414708-8e7ba45fa879?w=600&q=80"
+                                          alt="Model"></div>
+                              <h2 class="ring-typo">BEAUTY</h2>
+                        </div>
+                  </div>
+
+                  <!-- 95. Minimalist Text Map -->
+                  <div class="profile-card card-purple-edit-95">
+                        <div class="card-inner">
+                              <span class="tm-top-l">2025</span>
+                              <span class="tm-top-r">NO. 25</span>
+                              <img src="https://images.unsplash.com/photo-1502823403499-6ccfcf4fb453?w=600&q=80"
+                                    alt="Model" class="tm-center-img">
+                              <img src="https://images.unsplash.com/photo-1628105574384-56ad92110c14?w=600&q=80"
+                                    alt="Orchid" class="tm-orchid">
+                              <h2 class="tm-bot-c">JOURNEY</h2>
+                        </div>
+                  </div>
+
+                  <!-- 96. Diagonal Mask Overlay -->
+                  <div class="profile-card card-purple-edit-96">
+                        <div class="card-inner">
+                              <img src="https://images.unsplash.com/photo-1546456073-92b9f0a8d413?w=600&q=80"
+                                    alt="Model" class="dmo-base">
+                              <div class="dmo-mask">
+                                    <img src="https://images.unsplash.com/photo-1506501905869-7b3b320db9e3?w=600&q=80"
+                                          alt="Flowers">
+                              </div>
+                        </div>
+                  </div>
+
+                  <!-- 97. Extreme Grain & Blur Box -->
+                  <div class="profile-card card-purple-edit-97">
+                        <div class="card-inner">
+                              <img src="https://images.unsplash.com/photo-1515347619145-4200dbe15ce4?w=600&q=80"
+                                    alt="Model Blur" class="ex-blur-img">
+                              <div class="ex-sharp-box">
+                                    <p>TWENTY FIVE</p>
+                              </div>
+                              <img src="https://images.unsplash.com/photo-1534066060010-3fd272ba7e10?w=600&q=80"
+                                    alt="Lavender Sharp" class="ex-sharp-flower">
+                        </div>
+                  </div>
+
+                  <!-- 98. Stepped Image Blocks -->
+                  <div class="profile-card card-purple-edit-98">
+                        <div class="card-inner">
+                              <div class="step-b sb-1"><img
+                                          src="https://images.unsplash.com/photo-1524250502761-1ac6f2e30d43?w=600&q=80"
+                                          alt="Model Top"></div>
+                              <div class="step-b sb-2"><img
+                                          src="https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?w=600&q=80"
+                                          alt="Model Mid"></div>
+                              <div class="step-b sb-3"><img
+                                          src="https://images.unsplash.com/photo-1481214110143-ed630356e1bc?w=600&q=80"
+                                          alt="Model Bot"></div>
+                              <h2 class="step-text">ASCEND</h2>
+                        </div>
+                  </div>
+
+                  <!-- 99. The Blank Canvas Cutout -->
+                  <div class="profile-card card-purple-edit-99">
+                        <div class="card-inner">
+                              <div class="blank-bg"></div>
+                              <div class="blank-cutout">
+                                    <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=600&q=80"
+                                          alt="Model Backing">
+                              </div>
+                              <h2 class="blank-word">PURPLE</h2>
+                        </div>
+                  </div>
+
+                  <!-- 100. The Master Piece Layout -->
+                  <div class="profile-card card-purple-edit-100">
+                        <div class="card-inner">
+                              <img src="https://images.unsplash.com/photo-1534066060010-3fd272ba7e10?w=600&q=80"
+                                    alt="Macro Lavender" class="mp-bg-macro">
+                              <div class="mp-center-frame">
+                                    <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=600&q=80"
+                                          alt="Model Face">
+                              </div>
+                              <img src="https://images.unsplash.com/photo-1490750967868-88cb4ec06540?w=600&q=80"
+                                    alt="Floating Petals" class="mp-float-petals">
+                              <h1 class="mp-title">VOGUE</h1>
+                              <p class="mp-sub">COLLECTION 100</p>
+                        </div>
+                  </div>
+
+                  <!-- EXISTING SHOWCASE CARDS -->
+
+                  <!-- Card 1: Clean White Editor -->
+                  <div class="profile-card card-clean-editor filter-misc">
+                        <div class="card-inner">
+                              <div class="card-head">
+                                    <div class="avatar">
+                                          <img src="https://i.pravatar.cc/150?img=32" alt="Avatar">
+                                    </div>
+                                    <div class="head-info">
+                                          <h3>Sarah Jenkins</h3>
+                                          <p>@sarahcreates</p>
+                                    </div>
+                              </div>
+                              <div class="card-body">
+                                    <div class="input-mock">Full Name</div>
+                                    <div class="input-mock">Bio Description</div>
+                                    <div class="input-mock">Website URL</div>
+                              </div>
+                              <div class="card-footer">
+                                    <button class="action-btn">Save Profile</button>
+                              </div>
+                        </div>
+                  </div>
+
+                  <!-- Card 2: Dark Mode Identity -->
+                  <div class="profile-card card-dark-mode filter-misc">
+                        <div class="card-inner">
+                              <div class="glass-header">
+                                    <div class="avatar squared">
+                                          <img src="https://i.pravatar.cc/150?img=11" alt="Avatar">
+                                    </div>
+                                    <div class="user-details">
+                                          <h3>ALEX DEV</h3>
+                                          <p>Frontend Engineer</p>
+                                    </div>
+                              </div>
+                              <div class="stats-row">
+                                    <div class="stat"><span>89</span> Projects</div>
+                                    <div class="stat"><span>1.2k</span> Commits</div>
+                              </div>
+                              <div class="tech-stack">
+                                    <span class="tag">React</span>
+                                    <span class="tag">Three.js</span>
+                                    <span class="tag">Node</span>
+                              </div>
+                        </div>
+                  </div>
+
+                  <!-- Card 3: Minimal Light Stack -->
+                  <div class="profile-card card-minimal-stack filter-misc">
+                        <div class="card-inner">
+                              <div class="avatar-large">
+                                    <img src="https://i.pravatar.cc/250?img=47" alt="Avatar">
+                              </div>
+                              <div class="content-centered">
+                                    <h2>Elena Rossi</h2>
+                                    <p class="role">Creative Director</p>
+                                    <div class="social-links">
+                                          <div class="s-icon">in</div>
+                                          <div class="s-icon">tw</div>
+                                          <div class="s-icon">ig</div>
+                                    </div>
+                                    <p class="bio">Building digital experiences that matter.</p>
+                                    <button class="primary-btn">View Portfolio</button>
+                              </div>
+                        </div>
+                  </div>
+
+                  <!-- Card 4: Retro Yellow -->
+                  <div class="profile-card card-retro-yellow filter-misc">
+                        <div class="card-inner">
+                              <div class="retro-header">
+                                    <h1>HELLO</h1>
+                                    <p>MY NAME IS</p>
+                              </div>
+                              <div class="retro-body">
+                                    <h2 class="marker-text">Marcus</h2>
+                                    <div class="barcode">||||||||||||| | |||</div>
+                                    <button class="brutal-btn">CONNECT</button>
+                              </div>
+                        </div>
+                  </div>
+
+                  <!-- Card 5: Gradient Header -->
+                  <div class="profile-card card-gradient-hero filter-misc">
+                        <div class="card-inner">
+                              <div class="grad-banner"></div>
+                              <div class="avatar-overlap">
+                                    <img src="https://i.pravatar.cc/150?img=60" alt="Avatar">
+                              </div>
+                              <div class="content">
+                                    <h3>David Kim</h3>
+                                    <p>Product Designer</p>
+                                    <div class="link-list">
+                                          <div class="link-item">My Resume</div>
+                                          <div class="link-item">Dribbble</div>
+                                    </div>
+                              </div>
+                        </div>
+                  </div>
+
+                  <!-- Card 6: Editorial Serif -->
+                  <div class="profile-card card-editorial filter-misc">
+                        <div class="card-inner">
+                              <div class="serif-header">The Journal</div>
+                              <hr>
+                              <div class="story-content">
+                                    <p class="dropcap">W</p>
+                                    <p class="text">elcoming you to my digital space. A curated collection of thoughts,
+                                          designs, and visual essays.</p>
+                              </div>
+                              <div class="author-stamp">
+                                    <img src="https://i.pravatar.cc/100?img=5" alt="Avatar">
+                                    <span>Written by Emma</span>
+                              </div>
+                        </div>
+                  </div>
+
+                  <!-- Card 7: Music Player Style -->
+                  <div class="profile-card card-music-player filter-misc">
+                        <div class="card-inner">
+                              <div class="now-playing">Now Playing</div>
+                              <div class="album-art">
+                                    <img src="https://images.unsplash.com/photo-1614613535308-eb5fbd3d2c17?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+                                          alt="Album">
+                              </div>
+                              <div class="track-info">
+                                    <h3>Midnight City</h3>
+                                    <p>M83</p>
+                              </div>
+                              <div class="progress-bar">
+                                    <div class="fill"></div>
+                              </div>
+                              <div class="controls">
+                                    <span>⏮</span>
+                                    <span class="play">⏯</span>
+                                    <span>⏭</span>
+                              </div>
+                        </div>
+                  </div>
+
+            </main>
+      </div>
+
+      <script src="script.js"></script>
+</body>
+
+</html>
